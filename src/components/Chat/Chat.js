@@ -15,7 +15,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('')
   const [messages, setMessages] = useState([])
 
-  const END_POINT = 'https://chat.tutorialpoint.xyz'
+  const END_POINT = '//chat.tutorialpoint.xyz'
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search)
