@@ -15,7 +15,7 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('')
   const [messages, setMessages] = useState([])
 
-  const END_POINT = 'https://server.ujjalkar17.now.sh'
+  const END_POINT = 'https://sub.lotteryresultstoday.in'
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search)
