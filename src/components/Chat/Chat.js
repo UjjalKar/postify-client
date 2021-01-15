@@ -19,7 +19,7 @@ const Chat = ({ location }) => {
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search)
-    socket = io(END_POINT)
+    socket = io(END_POINT, {secure: true })
     setName(name)
     setRoom(room)
 
